@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>TIC-TAC-TOE</title>
+</head>
+<body>
+  <div class="board" id="board">  <!--Using id and headers attributes to associate data cells with header cells in data tables-->
+    <div class="cell" data-cell></div>  <!--9cells for the board-->
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+  </div>
+  <div class="winning-message" id="winningMessage"> <!--rsults of the game-->
+    <div data-winning-message-text></div>
+    <button id="restartButton">Restart</button>  <!--restart the game-->
+  </div>
+</body>
+</html>
